@@ -1,0 +1,205 @@
+/* GLOBAL */
+/* SUMMARY HOME
+    1. GLOBAL
+    2. HEADER
+    3. MAIN
+    4. FOOTER
+*/
+
+/* SUMMARY PRICING
+    1. GLOBAL
+    2. HEADER
+    3. MAIN
+    4. FOOTER
+*/
+
+/* SUMMARY COURSES
+    1. GLOBAL
+    2. HEADER
+    3. MAIN
+    4. FOOTER
+*/
+
+/*** 1. GLOBAL ***/
+
+/* Reset / Normalize
+   ============================= */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+
+/* Variables
+   ============================= */
+
+* { 
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav, #navbarNav, nav button {
+  z-index: 15 !important;
+}
+
+.nav-item a {
+  color: white !important; 
+  font-family: "Source Sans Pro";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  opacity: 0.9;
+}
+
+#banner-section {
+  background: url(images/BannerBackgroundWGradient.png) center/cover no-repeat; 
+  width: 1440;
+  height: 1080px; 
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+#schooling-container {
+  position: absolute;
+  width: 100%;
+  flex-direction: column;
+}
+
+#schooling-big-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+  #schooling-big-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 12rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #schooling-big-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 3.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 12rem;
+  }
+}
+
+#schooling-big-text p { 
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-content: center;
+  word-spacing: 55px;
+}
+
+#register-button {
+  border-radius: 1.3rem;
+  border: none;
+  background: #C271FF;
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 10.125rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  margin-top: 3rem;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50); 
+}
+
+#the-pros {
+  justify-content: center;
+  text-align: center;
+  margin-top: 4rem;
+  flex-direction: column;
+  width: 100%;
+}
+
+#the-pros span {
+  color: #C271FF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+#the-pros h2 {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.pro img {
+  width: 9.375rem;
+  height: 9.375rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+#pros-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10rem;
+}
+
+.pro {
+  width: 180px;
+  height: 237px;
+}
+
+.pro h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 27px;
+}
+
+.pro p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+}
