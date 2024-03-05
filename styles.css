@@ -303,3 +303,96 @@ nav, #navbarNav, nav button {
   padding-left: 6rem;
 }
 
+#card_title {
+  color: #071629;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#card_p {
+  color: rgba(7, 22, 41, 0.50);
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.rater {
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  margin-left: 1rem;
+}
+
+#rater {
+  margin-top: -1rem;
+  position: absolute;
+}
+
+.ratings {
+  margin-top: 3rem;
+}
+
+.free_membership {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.free_membership span {
+  color: #C271FF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.membership-info h5 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.membership-info p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.membership-flex-container button {
+  border-radius: 1.3rem;
+  border: none;
+  background: #C271FF;
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 10.125rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  margin-top: 3rem;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50); 
+}
