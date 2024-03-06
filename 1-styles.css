@@ -82,3 +82,74 @@ body {
   font-weight: 400;
   line-height: normal; 
 }
+
+/* SEARCH FILTERS */
+
+.search-title {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+#search-nav {
+  width: 100%;
+}
+
+#form-container {
+  width: 100%;
+}
+
+#form-title-text {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+#search-by-keyword {
+  border-radius: 0.1875rem 0.1875rem 0rem 0rem;
+  background-color: #D195FF;
+  border: none;
+}
+
+#search-by-keyword::placeholder {
+  color: #FFF;
+}
+
+#topic-sort-button {
+  border-radius: 0.1875rem 0.1875rem 0rem 0rem;
+  background-color: #D195FF;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  padding-top: 0.7rem;
+}
+
+#topic-sort-button span {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 1.4375rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal; 
+}
+
+.dropdown-menu {
+  width: 21.15rem;
+  font-family: "Source Sans Pro";
+  border-radius: 1%;
+}
+
+.dropdown-menu a {
+  padding-left: 0.8rem;
+}
+
+.dropdown-menu a:hover {
+  color: #C271FF;
+}
