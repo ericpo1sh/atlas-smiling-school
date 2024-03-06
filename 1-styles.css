@@ -115,11 +115,13 @@ body {
   border-radius: 0.1875rem 0.1875rem 0rem 0rem;
   background-color: #D195FF;
   border: none;
+  padding-left: 3rem;
 }
 
 #search-by-keyword::placeholder {
   color: #FFF;
 }
+
 
 #topic-sort-button {
   border-radius: 0.1875rem 0.1875rem 0rem 0rem;
@@ -152,4 +154,15 @@ body {
 
 .dropdown-menu a:hover {
   color: #C271FF;
+}
+
+.search-icon {
+  position: absolute;
+  z-index: 4;
+  margin-top: 0.9rem;
+  margin-left: 1rem;
+}
+
+.dropdown-toggle::after {
+  margin-top: 0.7em;
 }
