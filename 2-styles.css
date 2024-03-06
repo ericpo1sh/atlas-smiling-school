@@ -138,3 +138,87 @@ body {
   font-weight: 700;
   line-height: normal; 
 }
+
+#video_carousel {
+  background-color: #FFF;
+}
+
+#video_carousel h1 {
+  color: #071629;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#video_carousel span {
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+#Carousel {
+  background-color: #C271FF;
+}
+
+.carousel-item {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  align-items: center;
+  width: 100%;
+}
+
+.quote_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.quote_img img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.quote_text_container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+
+.quote_text_container blockquote {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+
+.quote_text_container cite {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px;
+}
+
+.quote_text_container p {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+
