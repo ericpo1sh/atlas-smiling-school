@@ -1,5 +1,7 @@
 In this project, we are tasked with creating a fully responsive, 3 page website that works on mobile, tablet, and desktop orientations!
 
+# [TRY ME OUT!](https://ericpo1sh.github.io/atlas-smiling-school/homepage.html)
+
 ### Frameworks that we must use :pushpin:
 - HTML
 - CSS
@@ -10,4 +12,3 @@ In this project, we are tasked with creating a fully responsive, 3 page website 
 - Your styles.css must be as small as you can - you must use as much as you can Bootstrap classes
 - Web pages must switch to the tablet version when the screen width is 768px
 - Web pages must switch to the mobile version when the screen width is 576px
-https://ericpo1sh.github.io/atlas-smiling-school/homepage.html
