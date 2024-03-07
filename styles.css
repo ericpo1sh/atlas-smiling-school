@@ -30,7 +30,7 @@ nav, #navbarNav, nav button {
 }
 
 #banner-section {
-  background: url(images/BannerBackgroundWGradient.png) center/cover no-repeat; 
+  background: url(tasks/images/BannerBackgroundWGradient.png) center/cover no-repeat; 
   width: 1440;
   height: 1080px; 
   flex-shrink: 0;
